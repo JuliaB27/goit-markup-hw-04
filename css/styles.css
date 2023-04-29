@@ -356,6 +356,10 @@ image {
 .customers-link-icon {
     fill: #8E8F99;
 }
+.customers-link-icon:hover, .customers-link-icon:focus {
+    fill:#404BBF;
+}
+
 
 /*--Footer--*/
 
@@ -364,6 +368,9 @@ image {
     padding: 100px 0;
     background-color: #2E2F42;
     text-decoration: none;
+}
+.footer-container {
+
 }
 
 .footer-link-logo {
@@ -387,12 +394,12 @@ image {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
-    margin-right: 120px;   
+     /*margin-right: 120px;   */
 }
 
 .footer-social {
-    width: 1440px;
-    height: 312px;
+   /* width: 1440px;
+    height: 312px;*/
   
 
 }
