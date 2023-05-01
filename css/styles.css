@@ -304,11 +304,11 @@ image {
 
 
 
-.socials {
+.socials-list {
     display: flex;
     justify-content: center;
-   /* align-items: center;*/
-    gap: 24px;
+    align-items: center;
+    gap:24px;
 }
 
 .socials-link {
@@ -424,6 +424,7 @@ image {
 }
 .socials {
     display: flex;
+    justify-content: center;
     gap: 16px;
 }
 .socials-items {
